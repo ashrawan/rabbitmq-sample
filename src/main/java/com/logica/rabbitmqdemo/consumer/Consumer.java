@@ -16,6 +16,6 @@ public class Consumer {
 
         System.out.println(payload);
         channel.basicNack(tag, false, false); // setting negative acknowledgment on message
-        // channel.basicAck(tag, false); // setting message successfully acknowledge
+        // channel.basicAck(tag, false); // message successfully acknowledge
     }
 }
