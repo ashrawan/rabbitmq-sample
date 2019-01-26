@@ -12,6 +12,7 @@
 
 
 ## **Readme**
+**This Sample: Binding Dead Letter Queue, for Manual Acknowledgement (ack/nack)**
 
 Api Call => [http://localhost:8080/rabbitTest/producer](http://localhost:8080/rabbitTest/producer)
 
